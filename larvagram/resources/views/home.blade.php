@@ -21,13 +21,13 @@
 
     <div class="row pt-5">
         <div class="col-4">
-            <img src="/assets/1.jpg" class="w-100">
+            <img src="/assets/bangzheng-du-icecream.jpg" class="w-100">
         </div>
         <div class="col-4">
-            <img src="/assets/2.jpg" class="w-100">
+            <img src="/assets/bangzheng-du-infinite.jpg" class="w-100">
         </div>
         <div class="col-4">
-            <img src="/assets/3.jpg" class="w-100">
+            <img src="/assets/bangzheng-du-omega.jpg" class="w-100">
         </div>
     </div>
 </div>
