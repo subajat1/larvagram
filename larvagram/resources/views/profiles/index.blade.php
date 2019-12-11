@@ -24,15 +24,12 @@
     </div>
 
     <div class="row pt-5">
-        <div class="col-4">
-            <img src="/assets/bangzheng-du-icecream.jpg" class="w-100">
-        </div>
-        <div class="col-4">
-            <img src="/assets/bangzheng-du-infinite.jpg" class="w-100">
-        </div>
-        <div class="col-4">
-            <img src="/assets/bangzheng-du-omega.jpg" class="w-100">
-        </div>
+        @foreach ($user->posts as $post)
+            <div class="col-4">
+                <img src="/storage/{{ $post->image }}" class="w-100">
+            </div>    
+        @endforeach
+        
     </div>
 </div>
 @endsection
