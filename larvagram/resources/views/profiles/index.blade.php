@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
-            <img src="/svg/logo.svg" alt="larv_logo" width="175px">
+            <img src="/storage/{{ $user->profile->image }}" alt="larv_logo" class="w-100">
         </div>
         <div class="col-9 pt-5">
             <div class="d-flex justify-content-between align-items-baseline">
