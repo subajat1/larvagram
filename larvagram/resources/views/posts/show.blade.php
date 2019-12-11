@@ -11,15 +11,17 @@
             <div>
                 <div class="d-flex align-items-center">
                     <div class="pr-3">
-                        <img src="/storage/{{ $post->user->profile->image }}" 
+                        <img src="{{ $post->user->profile->profileImage() }}" 
                             class="w-100 rounded-circle"
                             style="max-width: 40px;">
                     </div>
                     <div>
                         <div class="font-weight-bold">
-                            <a href="/profile/{{ $post->user->id }}">
+                            <a href="/profile/{{ $post->user->id }}" class="pr-2">
                                 <span class="text-dark">{{ $post->user->username }}</span>
                             </a>
+                            &bull;
+                            <a href="#" class="pl-2">Follow</a>
                         </div>
                     </div>
                 </div>
